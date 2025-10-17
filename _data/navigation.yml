@@ -14,6 +14,12 @@ main:
   - title: "Research"
     url: /research/
 
+  - title: "Project"
+    url: /project/
+
+  - title: "Award"
+    url: /award/
+
   # - title: "Publications"
   #   url: /publications/
 
