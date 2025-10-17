@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currently a **third-year** undergraduate student at the College of Control Science and Engineering, **Zhejiang University**, majoring in **Robotics Engineering** and guided by [Prof. Qiuguo Zhu](https://person.zju.edu.cn/0011353). My research interests lie primarily in **Robot Control** and **Reinforcement Learning**. I am also passionate about exploring more research areas. Please feel free to contact me!
+I am currently a **third-year** undergraduate student at **Zhejiang University**, majoring in **Robotics Engineering** and guided by [Prof. Qiuguo Zhu](https://ieeexplore.ieee.org/author/38238164400). My research interests lie primarily in **Robot Control** and **Reinforcement Learning**. I am also passionate about exploring more research areas. Please feel free to contact me!
 
 Education
 =========
