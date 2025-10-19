@@ -10,7 +10,7 @@ author_profile: true
 
 <img src="/images/project_drone.jpg" alt="RoboMaster Robot" width="300" style="float: right; margin-right: 20px; margin-bottom: 10px;">
 
-Over two seasons, I led the electrical control development for the Infantry and Aerial robots. My responsibilities spanned from low-level hardware development, including circuit design and soldering, to advanced software implementation. I applied and optimized classical control methods such as PID, MPC, and LQR to meet specific task requirements, achieving high-performance motion control. This experience solidified my programming foundation, cultivated strong problem-solving skills, and deepened my interest in robot control through hands-on system integration and teamwork.
+Over two seasons, I led the electrical control development for the Infantry and Aerial robots. My responsibilities spanned from low-level hardware development, including circuit design and soldering, to advanced software implementation. I applied and optimized classical control methods such as PID, LQR, and MPC to meet specific task requirements, achieving high-performance motion control. This experience solidified my programming foundation, cultivated strong problem-solving skills, and deepened my interest in robot control through hands-on system integration and teamwork.
 
 <div style="clear: both;"></div>
 
@@ -18,8 +18,6 @@ Over two seasons, I led the electrical control development for the Infantry and 
   <img src="/images/project_rm_wheeled_robot.gif" alt="Infantry Robot Demo" style="height: 280px; margin-right: 10px;">
   <img src="/images/project_rm_drone.gif" alt="Aerial Robot Demo" style="height: 280px; margin-left: 10px;">
 </p>
-
-
 
 📄 [Project Report (PDF)](/files/drone_tech_report.pdf)
 
