@@ -14,10 +14,18 @@ Over two seasons, I led the electrical control development for the Infantry and 
 
 <div style="clear: both;"></div>
 
-<p align="center">
-  <img src="/images/project_rm_wheeled_robot.gif" alt="Infantry Robot Demo" style="height: 280px; margin-right: 10px;">
-  <img src="/images/project_rm_drone.gif" alt="Aerial Robot Demo" style="height: 280px; margin-left: 10px;">
-</p>
+<div style="text-align: center;">
+  <div style="display: inline-block; margin: 0 10px; vertical-align: top;">
+    <img src="/images/project_rm_wheeled_robot.gif" alt="Infantry Robot Demo" style="height: 270px;">
+    <br>
+    <em>Steered-Wheeled Robot Basic Motion</em>
+  </div>
+  <div style="display: inline-block; margin: 0 10px; vertical-align: top;">
+    <img src="/images/project_rm_drone.gif" alt="Aerial Robot Demo" style="height: 270px;">
+    <br>
+    <em>Drone Gimbal Auto-Aiming</em>
+  </div>
+</div>
 
 📄 [Project Report (PDF)](/files/drone_tech_report.pdf)
 
