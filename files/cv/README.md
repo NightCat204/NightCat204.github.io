@@ -16,7 +16,7 @@
 ### 个人信息
 - **姓名**: Pengyuan Wang
 - **身份**: Undergraduate, Zhejiang University, Robotics Engineering
-- **邮箱**: 3230105936@zju.edu.cn
+- **邮箱**: wpy.wangpengyuan@gmail.com
 - **电话**: (+86) 18858112270
 - **网站**: https://nightcat204.github.io
 - **GitHub**: @NightCat204
@@ -302,7 +302,7 @@ A: 修改 `Makefile` 中的 `NAME` 变量，或直接重命名编译后的文件
 ## 维护者
 
 **Pengyuan Wang**
-- Email: 3230105936@zju.edu.cn
+- Email: wpy.wangpengyuan@gmail.com
 - GitHub: [@NightCat204](https://github.com/NightCat204)
 - Website: [nightcat204.github.io](https://nightcat204.github.io)
 
