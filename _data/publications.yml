@@ -28,7 +28,7 @@ sections:
   - id: engineering-projects
     title: ENGINEERING PROJECTS
     items:
-      - title: General Motion Tracking on E1 Humanoid Platform
+      - title: General Motion Tracking on Noetix E1 Humanoid Platform
         subtitle: Internship at Noetix Robotics
         summary: Reproduced and optimized General Motion Tracking frameworks (BeyondMimic/HoloMotion) via Isaac Lab. Leveraged adaptive sampling and robust sim-to-real pipelines to achieve stable whole-body imitation of high-dynamic dance sequences.
         image: ./assets/img/4_Dance_E1.gif

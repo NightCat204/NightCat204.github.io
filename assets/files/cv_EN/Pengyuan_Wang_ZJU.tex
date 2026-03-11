@@ -78,8 +78,7 @@ Research Intern at THU Spatial Intelligence Lab (Supervised by Prof. \href{https
 %	RESEARCH INTERESTS
 %----------------------------------------------------------------------------------------
 \section{RESEARCH INTERESTS}
-My current research interests focus on machine learning-based control for dynamic systems, including reinforcement learning, imitation learning, perception–action loop, and sim-to-real transfer.\\
-In the long term, I hope to fully leverage the configuration and hardware advantages of diverse robotic platforms to enable safe, autonomous, and widely deployed robots in both industrial and daily-life settings.
+My current research interests focus on machine learning-based control methodologies for complex dynamic systems, specifically encompassing reinforcement learning, imitation learning, the perception-action loop, and robust sim-to-real transfer.
 
 %----------------------------------------------------------------------------------------
 %	RESEARCH PROJECTS
@@ -87,21 +86,23 @@ In the long term, I hope to fully leverage the configuration and hardware advant
 \section{RESEARCH PROJECTS}
 
 \textcolor{titleblue}{\textbf{End-to-End Humanoid Soccer Control via Depth-Based Active Perception}} \hfill Dec 2025--Present \\
-\textit{\textbf{Yixiao Huo$^*$, \underline{Pengyuan Wang$^*$}, Jiakang Jin$^*$, Yinan Han$^*$, et al.}}
+\textit{Target Venue: CoRL 2026} $|$ \textit{Status: Simulation Training \& Hardware Deployment} \\
+\textit{\textbf{Yixiao Huo$^*$, \underline{Pengyuan Wang$^*$}, Jiakang Jin$^*$, Yinan Han$^*$, et al. (Advised by Prof. Yiming Li)}}
 \begin{itemize}[nosep,after=\strut, leftmargin=1.5em, itemsep=3pt,label=$\bullet$]
-\item Designed the perception-control architecture and led sim-to-real deployment for a 25-DOF humanoid (modified \href{https://noetixrobotics.com/en/e1}{Noetix E1}), integrating a 2-DOF active vision head to decouple perception from base locomotion.
-\item Developed a multimodal end-to-end RL framework centered on depth perception, and integrated auxiliary prediction heads within the vision encoder to robustly extract target latents and strengthen feature-driven state estimation.
-\item Architected adaptive task-switching policies for hierarchical dribbling and shooting, structuring searching and chasing as autonomous prerequisite stages for robust, vision-driven execution of target-oriented soccer maneuvers.
+\item Designed perception-control architecture and led sim-to-real deployment for a 25-DOF humanoid. Integrated a 2-DOF active vision head to decouple perception, enhancing dynamic tracking.
+\item Developed an end-to-end RL framework centered on depth perception. Integrated auxiliary prediction heads within the vision encoder to extract target latents and strengthen feature-driven state estimation, ensuring precise target localization under severe sensory noise and occlusions.
+\item Currently architecting and validating adaptive task-switching policies for hierarchical dribbling and shooting, systematically structuring autonomous searching and chasing behaviors as essential prerequisites to consistently achieve highly cohesive and strategic gameplay.
 \end{itemize}
 
 \vspace{6pt}
 
 \textcolor{titleblue}{\textbf{Autonomous Humanoid Exploration in Multi-Level Terrains}} \hfill Jan 2026--Present \\
-\textit{\textbf{Yinan Han$^*$, Yixiao Huo$^*$, \underline{Pengyuan Wang$^*$}, Jiakang Jin$^*$, et al.}}
+\textit{Target Venue: CoRL 2026} $|$ \textit{Status: Algorithm Validation \& Simulation Training} \\
+\textit{\textbf{Yinan Han$^*$, Yixiao Huo$^*$, \underline{Pengyuan Wang$^*$}, Jiakang Jin$^*$, et al. (Advised by Prof. Yiming Li)}}
 \begin{itemize}[nosep,after=\strut, leftmargin=1.5em, itemsep=3pt,label=$\bullet$]
-\item Orchestrated a goal-free exploratory framework for a 25-DOF humanoid (modified Noetix E1), using a 2-DOF active vision head to support proactive environmental scanning and heuristic pathfinding beyond fixed fields of view.
-\item Engineered a structural-feature encoder with an auxiliary terrain predictor to prioritize traversal toward high-variance topographies, enabling autonomous direction guidance based on localized depth complexity.
-\item Synthesized competitive reward dynamics that balance displacement efficiency against survival constraints, inducing emergent locomotion that autonomously modulates traversal speed according to real-time terrain risk.
+\item Designed a goal-free exploratory framework for a 25-DOF humanoid using an active vision head to proactively scan environments, enabling robust pathfinding beyond static perception limits.
+\item Designing and evaluating a structural-feature encoder with an auxiliary terrain predictor to prioritize traversal toward high-variance topographies, aiming to enable autonomous direction guidance via localized depth complexity for stable progression in unpredictable environments.
+\item Formulating and validating competitive reward dynamics to balance displacement efficiency against survival constraints. This aims to induce emergent locomotion that modulates traversal speed based on terrain risks, significantly improving the humanoid's navigational resilience.
 \end{itemize}
 
 \vspace{6pt}
@@ -113,9 +114,9 @@ In the long term, I hope to fully leverage the configuration and hardware advant
 
 \textcolor{titleblue}{\textbf{RoboMaster University Series: Embedded System Architecture}} \hfill 2023--2025
 \begin{itemize}[nosep,after=\strut, leftmargin=1.5em, itemsep=3pt,label=$\bullet$]
-\item Architected the embedded software framework and electrical topology for 4-swerve infantry and quadrotor platforms, and implemented a multi-layer state machine to ensure deterministic low-level motion control and system reliability.
-\item Developed a high-bandwidth communication protocol using bit-fields to maximize transmission frequency while maintaining data integrity, improving real-time throughput between the main controller and distributed actuators.
-\item Refined actuator dynamics through feed-forward cascaded PID and feedback control, achieving precise projectile velocity convergence and responsive gimbal tracking with zero overshoot for vision-coupled auto-aiming deployment.
+\item Architected the embedded software framework and electrical topology for 4-swerve infantry and quadrotor platforms, and implemented a multi-layer state machine to ensure deterministic low-level motion control and system reliability during intense, highly adversarial match conditions across prolonged operational periods.
+\item Developed a high-bandwidth communication protocol using bit-fields to maximize transmission frequency and maintain data integrity, effectively minimizing control latency for highly dynamic maneuvers and ensuring that the pressure load on the communication bus remained strictly manageable and stable.
+\item Refined actuator dynamics through feed-forward cascaded PID and feedback control, achieving precise projectile velocity convergence and responsive gimbal tracking with zero overshoot.
 \end{itemize}
 
 %----------------------------------------------------------------------------------------
@@ -123,11 +124,11 @@ In the long term, I hope to fully leverage the configuration and hardware advant
 %----------------------------------------------------------------------------------------
 \section{ENGINEERING PROJECTS}
 
-\textbf{General Motion Tracking on E1 Humanoid Platform} \hfill 2025 \\
+\textbf{General Motion Tracking on Noetix E1 Humanoid Platform} \hfill 2025 \\
 \textit{Internship at \href{https://noetixrobotics.com/en}{Noetix Robotics}}
 \begin{itemize}[nosep,after=\strut, leftmargin=1.5em, itemsep=3pt,label=$\bullet$]
-\item Reproduced GMT frameworks (BeyondMimic/HoloMotion) on the E1 platform, and optimized training via adaptive sampling and dataset cleaning, significantly improving tracking fidelity for complex, high-dynamic dance sequences.
-\item Engineered a Sim-to-Real pipeline in Isaac Lab by optimizing training architectures, and coordinated with hardware teams to deploy policies, achieving stable whole-body coordination and fluid imitation on physical robots.
+\item Reproduced GMT frameworks (BeyondMimic/HoloMotion) on the E1 platform, and optimized training via adaptive sampling and dataset cleaning, significantly improving tracking fidelity for complex, high-dynamic dance sequences, successfully bridging the gap between kinematic retargeting and physical dynamic execution.
+\item Actively engaged in the complete Sim-to-Real deployment workflow, developing a solid understanding of the sim2real transition. Collaborated with technical teams to perform training-level optimizations, directly supporting policy deployments that achieved stable whole-body coordination on physical robots.
 \end{itemize}
 
 \vspace{6pt}
@@ -135,9 +136,9 @@ In the long term, I hope to fully leverage the configuration and hardware advant
 \textbf{Agile UAV Flight Control via Deep Reinforcement Learning} \hfill Jul--Sep 2025 \\
 \textit{Research project at FAST Lab, ZJU}
 \begin{itemize}[nosep,after=\strut, leftmargin=1.5em, itemsep=3pt,label=$\bullet$]
-\item Constructed a high-mobility control stack integrating Jetson ORIN NX and PX4, and implemented cascaded PID controllers to decouple position and attitude, ensuring high-frequency response for agile flight maneuvers.
-\item Deployed a PPO-based RL framework for aggressive motion control, leveraging extensive domain randomization to bridge the sim-to-real gap and facilitate robust policy transfer from virtual environments to hardware.
-\item Accomplished autonomous execution of complex trajectories including high-speed figure-8 maneuvers, integrating the system via ROS to optimize data synchronization between high-level neural policies and low-level flight hardware.
+\item Constructed a high-mobility control system integrating Jetson ORIN NX and PX4, and implemented cascaded PID controllers to decouple position and attitude, ensuring high-frequency response for agile flight maneuvers and providing a highly dependable foundation for aggressive trajectory tracking tasks.
+\item Deployed a PPO-based RL framework for aggressive motion control, leveraging extensive domain randomization to bridge the sim-to-real gap and facilitate robust policy transfer from virtual environments to hardware, successfully mitigating aerodynamic disturbances, sensor noise, and unmodeled physical dynamics.
+\item Accomplished autonomous execution of complex trajectories including high-speed figure-8 maneuvers, integrating the system via ROS to optimize data synchronization between high-level neural policies and low-level flight hardware, proving the viability of the proposed aerial control paradigm in deployments.
 \end{itemize}
 
 \vspace{6pt}
@@ -152,7 +153,7 @@ $\bullet$ First Prize in China University Robot Competition (\href{https://www.r
 & (Regional 2nd Place) 2025 \\[3.75pt]
 $\bullet$ First Prize in Zhejiang University Robot Competition & (2nd Place) 2024 \\[3.75pt]
 $\bullet$ Outstanding Student \& Academic Excellence Award, ZJU & 2024, 2025 \\[3.75pt]
-$\bullet$ Zhejiang University Third-Class Scholarship (Top 20\%) & 2024, 2025 \\
+$\bullet$ Zhejiang University Third-Class Scholarship & (Top 20\%) 2024, 2025 \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
@@ -160,10 +161,10 @@ $\bullet$ Zhejiang University Third-Class Scholarship (Top 20\%) & 2024, 2025 \\
 %----------------------------------------------------------------------------------------
 \section{SERVICE}
 \begin{tabularx}{\linewidth}{@{}X r@{}}
-$\bullet$ \textbf{Team Leader} | ZJU RoboMaster Team ``Hello World'' & 2023--2025 \\[3.75pt]
-$\bullet$ \textbf{Minister} | Zhejiang University Student Robotics Association (100+ members) & 2024--2025 \\[3.75pt]
-$\bullet$ \textbf{Volunteer} | Opening Ceremony of Zhejiang University & 2023 \\[3.75pt]
-$\bullet$ \textbf{Volunteer} | Zhejiang University Annual Sports Meet & 2025 \\
+$\bullet$ \textbf{Project Lead (Infantry \& Aerial)} $|$ ZJU RoboMaster Team ``Hello World'' & 2023--2025 \\[3.75pt]
+$\bullet$ \textbf{Minister} $|$ Zhejiang University Student Robotics Association (100+ members) & 2024--2025 \\[3.75pt]
+$\bullet$ \textbf{Volunteer} $|$ Opening Ceremony of Zhejiang University & 2023 \\[3.75pt]
+$\bullet$ \textbf{Volunteer} $|$ Zhejiang University Annual Sports Meet & 2025 \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
@@ -171,7 +172,7 @@ $\bullet$ \textbf{Volunteer} | Zhejiang University Annual Sports Meet & 2025 \\
 %----------------------------------------------------------------------------------------
 \section{SKILLS}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-$\bullet$ \textbf{Robot Platforms} & Noetix E1, Noetix N2, DeepRobotics DR02 \\[3.75pt]
+$\bullet$ \textbf{Robot Platforms} & Noetix E1, Noetix N2 \\[3.75pt]
 $\bullet$ \textbf{Programming} & Python, PyTorch, C/C++ \\[3.75pt]
 $\bullet$ \textbf{Software} & IsaacGym/Lab, Gazebo, SolidWorks \\[3.75pt]
 $\bullet$ \textbf{Hardware} & Arduino/51/STM32, Circuit Design \\[3.75pt]
