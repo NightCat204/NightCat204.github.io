@@ -1,22 +1,39 @@
-main:
+sections:
+  - id: research-projects
+    title: RESEARCH PROJECTS
+    items:
+      - title: End-to-End Humanoid Soccer Control via Depth-Based Active Perception
+        subtitle: 'Yixiao Huo*, <strong>Pengyuan Wang*</strong>, Jiakang Jin*, Yinan Han*, et al.'
+        summary: Developed an end-to-end RL framework for a 25-DOF humanoid to perform complex soccer maneuvers. Integrated depth-based active perception and auxiliary prediction heads for robust sim-to-real hardware deployment.
+        image: ./assets/img/1_Dribble_E1_25dof.gif
+        notes: ongoing
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+      - title: Autonomous Humanoid Exploration in Multi-Level Terrains
+        subtitle: 'Yinan Han*, Yixiao Huo*, <strong>Pengyuan Wang*</strong>, Jiakang Jin*, et al.'
+        summary: Designed a goal-free heuristic exploration policy for a 25-DOF humanoid using active depth sensing. Synthesized competitive reward dynamics to induce emergent, terrain-adaptive locomotion across complex environments.
+        image: ./assets/img/2_HMV_Env.PNG
+        notes: ongoing
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - id: competitions
+    title: COMPETITIONS
+    items:
+      - title: "RoboMaster University Series: Embedded System Architecture"
+        subtitle: 'Zhejiang University RoboMaster Team "Hello World"'
+        summary: Architected the embedded software and multi-layer state machines for heterogeneous competitive robots. Developed high-bandwidth bit-field protocols and cascaded PID controllers to ensure deterministic, high-speed motion control.
+        image: ./assets/img/3_RM_Infantry.gif
+        links:
+          - label: Technical Report
+            url: ./assets/files/RM2025_无人机电控技术方案.pdf
+
+  - id: engineering-projects
+    title: ENGINEERING PROJECTS
+    items:
+      - title: General Motion Tracking on E1 Humanoid Platform
+        subtitle: Internship at Noetix Robotics
+        summary: Reproduced and optimized General Motion Tracking frameworks (BeyondMimic/HoloMotion) via Isaac Lab. Leveraged adaptive sampling and robust sim-to-real pipelines to achieve stable whole-body imitation of high-dynamic dance sequences.
+        image: ./assets/img/4_Dance_E1.gif
+
+      - title: Agile UAV Flight Control via Deep Reinforcement Learning
+        subtitle: Research project at FAST Lab, Zhejiang University
+        summary: Built a high-mobility UAV control stack bridging PPO-based RL and cascaded PID. Achieved autonomous agile maneuvers (e.g., figure-8) using extensive domain randomization for robust sim-to-real hardware transfer.
+        image: ./assets/img/5_Fly8_UAV.gif

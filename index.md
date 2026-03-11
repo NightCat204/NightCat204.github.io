@@ -4,20 +4,8 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am Pengyuan Wang, an undergraduate student in Robotics Engineering (Honors Program) at [Zhejiang University](https://www.zju.edu.cn/english/), expected to graduate in 2027. Currently, I am a research intern at the THU Spatial Intelligence Lab, working with Prof. [Yiming Li](https://scholar.google.com/citations?hl=en&user=i_aajNoAAAAJ&view_op=list_works&sortby=pubdate).
 
-## Research Interests
-
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
-
-## News
-
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+My long-term research vision is to develop machine learning-based control for dynamic systems, encompassing reinforcement learning, imitation learning, and the perception-action loop, to achieve high-level autonomy. I aim to fully leverage the hardware advantages of diverse robotic platforms to enable safe and autonomous deployment in both industrial and daily-life settings.
 
 {% include_relative _includes/publications.md %}
-
-{% include_relative _includes/services.md %}
