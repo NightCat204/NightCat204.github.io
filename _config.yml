@@ -15,12 +15,12 @@ canonical: https://nightcat204.github.io/
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: ""
 show_google_scholar: false
-cv_link: ./assets/files/cv_EN/Pengyuan_Wang_ZJU.pdf
+cv_link: ./assets/files/cv_EN/CV_Pengyuan_Wang_ZJU.pdf
 github_link: https://github.com/NightCat204
-linkedin: ""
-show_linkedin: false
-twitter: ""
-show_twitter: false
+linkedin: "https://www.linkedin.com/in/pengyuan-wang-a726063b6/"
+show_linkedin: true
+twitter: "https://x.com/NightCat204"
+show_twitter: true
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
