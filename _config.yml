@@ -4,12 +4,32 @@ position: Undergraduate Student
 affiliation: Zhejiang University
 affiliation_link: https://www.zju.edu.cn/english/
 email: wpy[dot]wangpengyuan[at]gmail[dot]com
+lang: en-US
+locale: en_US
+url: https://nightcat204.github.io
+baseurl: ""
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: Pengyuan Wang, robotics, reinforcement learning, imitation learning, humanoid robotics
-description: Pengyuan Wang's personal academic website.
-canonical: https://nightcat204.github.io/
+description: Academic homepage of Pengyuan Wang, an undergraduate researcher at Zhejiang University working on humanoid robotics, reinforcement learning, imitation learning, and autonomous control.
+image: /assets/img/profile.jpeg
+logo: /assets/img/favicon-robot.png
+author:
+  name: Pengyuan Wang
+  url: https://nightcat204.github.io/
+social:
+  name: Pengyuan Wang
+  links:
+    - https://github.com/NightCat204
+    - https://www.linkedin.com/in/pengyuan-wang-a726063b6/
+    - https://x.com/NightCat204
+twitter:
+  username: NightCat204
+  card: summary_large_image
+webmaster_verifications:
+  # Paste your Search Console HTML tag token here after property creation.
+  google:
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
@@ -19,7 +39,7 @@ cv_link: ./assets/files/cv_EN/CV_Pengyuan_Wang_ZJU.pdf
 github_link: https://github.com/NightCat204
 linkedin: "https://www.linkedin.com/in/pengyuan-wang-a726063b6/"
 show_linkedin: true
-twitter: "https://x.com/NightCat204"
+twitter_url: "https://x.com/NightCat204"
 show_twitter: true
 
 # Images (e.g., your profile picture and your website's favicon) 
@@ -47,6 +67,9 @@ google_analytics:
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
 remote_theme: yaoyao-liu/minimal-light
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # The following files will be removed from the generated website.
 exclude:
