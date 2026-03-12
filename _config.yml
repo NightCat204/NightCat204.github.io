@@ -69,7 +69,6 @@ google_analytics:
 remote_theme: yaoyao-liu/minimal-light
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap
 
 # The following files will be removed from the generated website.
 exclude:
