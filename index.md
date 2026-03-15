@@ -1,6 +1,6 @@
 ---
 layout: homepage
-title: Humanoid Robotics, Reinforcement Learning, and Autonomous Control
+title: Pengyuan Wang | ZJU
 meta_title: Pengyuan Wang | ZJU
 description: Academic homepage of Pengyuan Wang, an undergraduate researcher at Zhejiang University focusing on humanoid robotics, reinforcement learning, imitation learning, and autonomous control.
 image: /assets/img/profile.jpeg
