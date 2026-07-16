@@ -5,3 +5,14 @@ Gemfile.lock
 .DS_Store
 .jekyll-cache
 git-update.sh
+
+# Visa-specific de-sensitized CV — keep local only, never publish
+assets/files/cv_EN_VISA/
+
+# LaTeX build artifacts
+*.aux
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz

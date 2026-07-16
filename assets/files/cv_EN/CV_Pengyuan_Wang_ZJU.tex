@@ -39,6 +39,14 @@
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
 \definecolor{titleblue}{rgb}{0,0.2,0.6}
 
+% Footer style for the last page only (update time)
+\usepackage{fancyhdr}
+\fancypagestyle{lastfoot}{%
+  \fancyhf{}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \fancyfoot[C]{\footnotesize\itshape Last updated: July 16, 2026}%
+}
+
 %----------------------------------------------------------------------------------------
 %	BEGIN DOCUMENT
 %----------------------------------------------------------------------------------------
@@ -86,8 +94,8 @@ My current research interests focus on machine learning-based control methodolog
 \section{RESEARCH PROJECTS}
 
 \textcolor{titleblue}{\textbf{End-to-End Humanoid Soccer Control via Depth-Based Active Perception}} \hfill Dec 2025--Present \\
-\textit{To be submitted to CoRL 2026} \\
-\textit{\textbf{Yixiao Huo$^*$, \underline{Pengyuan Wang$^*$}, Jiakang Jin$^*$, Yinan Han$^*$, et al. (Advised by Prof. Yiming Li)}}
+\textit{Under peer review} \\
+\textit{\textbf{Jiakang Jin$^*$, Yixiao Huo$^*$, \underline{Pengyuan Wang$^*$}, Yinan Han$^*$, et al. (Advised by Prof. Yiming Li)}}
 \begin{itemize}[nosep,after=\strut, leftmargin=1.5em, itemsep=3pt,label=$\bullet$]
 \item Designed perception-control architecture and led sim-to-real deployment for a 25-DOF humanoid. Integrated a 2-DOF active vision head to decouple perception, enhancing dynamic tracking.
 \item Developed an end-to-end RL framework centered on depth perception. Integrated auxiliary prediction heads within the vision encoder to extract target latents and strengthen feature-driven state estimation, ensuring precise target localization under severe sensory noise and occlusions.
@@ -97,7 +105,7 @@ My current research interests focus on machine learning-based control methodolog
 \vspace{6pt}
 
 \textcolor{titleblue}{\textbf{Autonomous Humanoid Exploration in Multi-Level Terrains}} \hfill Jan 2026--Present \\
-\textit{To be submitted to CoRL 2026} \\
+\textit{Under peer review} \\
 \textit{\textbf{Yinan Han$^*$, Yixiao Huo$^*$, \underline{Pengyuan Wang$^*$}, Jiakang Jin$^*$, et al. (Advised by Prof. Yiming Li)}}
 \begin{itemize}[nosep,after=\strut, leftmargin=1.5em, itemsep=3pt,label=$\bullet$]
 \item Designed a goal-free exploratory framework for a 25-DOF humanoid using an active vision head to proactively scan environments, enabling robust pathfinding beyond static perception limits.
@@ -178,5 +186,7 @@ $\bullet$ \textbf{Software} & IsaacGym/Lab, Gazebo, SolidWorks \\[3.75pt]
 $\bullet$ \textbf{Hardware} & Arduino/51/STM32, Circuit Design \\[3.75pt]
 $\bullet$ \textbf{Others} & ROS, Git, Linux, LaTeX \\
 \end{tabularx}
+
+\thispagestyle{lastfoot}
 
 \end{document}
